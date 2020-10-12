@@ -90,24 +90,21 @@
 
 
 <div class="container" style="padding-top: 80px">
-
+  <audio controls class="embed-responsive-item audio_rioelectro_player" id="rioelectro_player" >
+      <source src="https://stream.zeno.fm/v9kshgmmb2zuv" type="audio/aac" />
+  </audio>
+<button type="button" class="btn_rioelectro_play btn btn-secondary btn-lg btn-block" style="display:none">&#9654;&#9654;Ouvir</button>
+<hr>
+<h1>&#10146; @yield('titulo', 'Rio Electro Web Rádio' )</h1>
     <div class="row">
-      <div class="col-9"><h1>&#10146; @yield('titulo', 'Rio Electro Web Rádio' )</h1></div>
-      <div class="col-3">
-          <audio controls class="embed-responsive-item audio_rioelectro_player" id="rioelectro_player" >
-              <source src="https://stream.zeno.fm/v9kshgmmb2zuv" type="audio/aac" />
-          </audio>
-
-        <button type="button" class="btn_rioelectro_play btn btn-secondary btn-lg btn-block" style="display:none">&#9654;&#9654;Ouvir</button>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-9" id="div_content">
+      <div class="col-lg-8">
+        <hr>
         <section class="content">
                        @yield('conteudo')
        </section>
       </div>
-      <div class="col-3">
+      <div class="col-sm">
+        <hr>
         Mais Ouvidas<br>
         Sets Mixados<br>
         Eventos<br>
@@ -117,7 +114,7 @@
 
 
         <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-            Build v{{ Illuminate\Foundation\Application::VERSION }}
+            Build v.1 Beta By Dj Leandro PR | visit <a href="https://mixcloud.com/leandropr"> on Mixcloud</a> for more sets!
         </div>
 </div>
 

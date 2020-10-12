@@ -6,40 +6,22 @@
 <p>
   Música eletrônica, sets mixados, downloads e muito mais!
 </p>
+<h2>Novidade!</h2>
+<p>
+  Podcast EXCLUSIVO de lançamento da Rio Electro Web Rádio!<br>
+  Aumente o volume e dá um play no player abaixo!!!
+</p>
+
+<iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&feed=%2Fleandropr%2Fpodcast-rio-electro-1-by-leandro-pr%2F" frameborder="0" ></iframe>
+<hr>
+<p>
+  Ou então vem curtir nossa transmissão ao vivo!
+</p>
+
 <div class="btn_rioelectro_play" style="display:none">
   Vem curtir, dá um
   <button type="button" class="btn btn-secondary btn-lg">&#9654;&#9654;PLAY</button>
 </div>
-<p>
-  Outros links: ouça em seu player favorito!
-
-<table class="table table-dark table-hover">
-  <thead>
-    <tr>
-      <th scope="col">Opção</th>
-      <th scope="col">Tipo</th>
-      <th scope="col">Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Direto</td>
-      <td>https://stream.zeno.fm/v9kshgmmb2zuv</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>m3u</td>
-      <td>https://stream.zeno.fm/v9kshgmmb2zuv.m3u</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>pls</td>
-      <td>https://stream.zeno.fm/v9kshgmmb2zuv.pls</td>
-    </tr>
-  </tbody>
-</table>
-</p>
 @endsection
 @section('js')
 <script src="{{ asset('js/sms.class.js') }}"></script>
